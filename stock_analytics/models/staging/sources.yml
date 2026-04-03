@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: stock_data
+    database: stock_pipeline
+    schema: stock_data
+    tables:
+      - name: raw_stock_data
